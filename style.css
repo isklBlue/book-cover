@@ -1,0 +1,117 @@
+:root {
+  --book-color: #f5e5c6;
+  --text-color: #292527;
+  --bg-color: #0e0e0e;
+  --red-color: #c3624f;
+}
+
+@font-face {
+  font-family: "swiss-721";
+  font-style: normal;
+  font-weight: normal;
+  src: url("Swiss 721 Extended BT.ttf") format("opentype");
+  }
+
+body {
+  background: var(--bg-color);
+}
+
+.book {
+  width: 375px;
+  height: 600px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--book-color);
+}
+
+.author {
+  font-family: "swiss-721";
+  color: var(--red-color);
+  font-size: 20px;
+}
+
+.name {
+  font-family: neil-bold-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 75px;
+  color: var(--text-color);
+  background: var(--book-color);
+  margin: 0px;
+  padding-top: 3px;
+  height: 58px;
+  width: 371px;
+}
+
+.top-5 {
+  position: absolute;
+  top: 120px;
+  left: 2px;
+}
+
+.top-4 {
+  position: absolute;
+  top: 150px;
+  left: 2px;
+}
+
+.top-3 {
+  position: absolute;
+  top: 180px;
+  left: 2px;
+}
+
+.top-2 {
+  position: absolute;
+  top: 210px;
+  left: 2px;
+}
+
+.top-1 {
+  position: absolute;
+  top: 240px;
+  left: 2px;
+}
+
+.center {
+  position: absolute;
+  top: 270px;
+  left: 2px;
+}
+
+.bottom-1 {
+  position: absolute;
+  top: 300px;
+  left: 2px;
+  z-index: -1;
+}
+
+.bottom-2 {
+  position: absolute;
+  top: 330px;
+  left: 2px;
+  z-index: -2;
+}
+
+.bottom-3 {
+  position: absolute;
+  top: 360px;
+  left: 2px;
+  z-index: -3;
+}
+
+.bottom-4 {
+  position: absolute;
+  top: 390px;
+  left: 2px;
+  z-index: -4;
+}
+
+.bottom-5 {
+  position: absolute;
+  top: 420px;
+  left: 2px;
+  z-index: -5;
+}
